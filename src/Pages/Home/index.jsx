@@ -1,13 +1,14 @@
-
+import Layout from "../../Components/Navbar/Layout";
+import Card from "../../Components/Navbar/Card";
 
 function Home() {
     return (
-      <>
-        <div className='bg-red-100'>
+      <Layout>
           Home
-        </div>
+          <Card />
+      </Layout>
         
-      </>
+   
     )
   }
   

@@ -1,13 +1,10 @@
-
+import Layout from "../../Components/Navbar/Layout";
 
 function SignIn() {
     return (
-      <>
-        <div className='bg-red-100'>
+        <Layout>
           SignIn
-        </div>
-        
-      </>
+        </Layout>
     )
   }
   
