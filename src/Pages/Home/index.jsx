@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
-import Layout from "../../Components/Navbar/Layout";
-import Card from "../../Components/Navbar/Card";
+import { useState, useEffect } from 'react'
+import Layout from '../../Components/Navbar/Layout'
+import Card from '../../Components/Navbar/Card'
+import ProductDetail from '../../Components/Navbar/ProductDetail'
 
 
 function Home() {
@@ -24,7 +25,7 @@ function Home() {
           }
 
           </div>
-          
+          <ProductDetail />
       </Layout>
         
    
